@@ -9,12 +9,6 @@
         "title": "Max Results",
         "description": "Maximum number of results to return",
         "default": 50
-      },
-      "proxyConfiguration": {
-        "type": "object",
-        "title": "Proxy Configuration",
-        "description": "Proxy configuration",
-        "default": { "useApifyProxy": true, "apifyProxyGroups": ["RESIDENTIAL"] }
       }
     }
   }
