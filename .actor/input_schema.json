@@ -1,14 +1,12 @@
 {
   "schemaVersion": 1,
-  "schema": {
-    "title": "Hacker News Scraper Input",
-    "type": "object",
-    "properties": {
-      "maxResults": {
-        "type": "integer",
-        "title": "Max Results",
-        "description": "Maximum number of results to return"
-      }
+  "title": "Hacker News Scraper Input",
+  "type": "object",
+  "properties": {
+    "maxResults": {
+      "type": "integer",
+      "title": "Max Results",
+      "description": "Maximum number of results to return"
     }
   }
 }
