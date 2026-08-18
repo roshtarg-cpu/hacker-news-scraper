@@ -8,17 +8,14 @@
   "dockerfile": "./Dockerfile",
   "output": {
     "actorOutputSchemaVersion": 1,
-    "schema": {
-      "type": "object",
-      "properties": {
-        "title": { "type": "string", "template": "{{{title}}}" },
-        "url": { "type": "string", "template": "{{{url}}}" },
-        "points": { "type": "string", "template": "{{{points}}}" },
-        "user": { "type": "string", "template": "{{{user}}}" },
-        "time": { "type": "string", "template": "{{{time}}}" },
-        "comments": { "type": "string", "template": "{{{comments}}}" },
-        "rank": { "type": "string", "template": "{{{rank}}}" }
-      }
+    "properties": {
+      "title": { "type": "string", "template": "{{{title}}}" },
+      "url": { "type": "string", "template": "{{{url}}}" },
+      "points": { "type": "string", "template": "{{{points}}}" },
+      "user": { "type": "string", "template": "{{{user}}}" },
+      "time": { "type": "string", "template": "{{{time}}}" },
+      "comments": { "type": "string", "template": "{{{comments}}}" },
+      "rank": { "type": "string", "template": "{{{rank}}}" }
     }
   }
 }
