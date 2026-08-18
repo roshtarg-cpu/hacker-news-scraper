@@ -1,0 +1,23 @@
+{
+  "actorSpecification": 1,
+  "name": "hacker-news-scraper",
+  "title": "Hacker News Scraper — Stories, Comments & Developer Sentiment",
+  "description": "Scrape Hacker News front page and paginated stories. Extract titles, URLs, points, authors, timestamps, and comment counts. Perfect for trend analysis, developer sentiment tracking, and AI-powered content monitoring. Works with Claude, ChatGPT, and AI agents via Apify MCP.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "output": {
+    "schema": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "template": "{{{title}}}" },
+        "url": { "type": "string", "template": "{{{url}}}" },
+        "points": { "type": "string", "template": "{{{points}}}" },
+        "user": { "type": "string", "template": "{{{user}}}" },
+        "time": { "type": "string", "template": "{{{time}}}" },
+        "comments": { "type": "string", "template": "{{{comments}}}" },
+        "rank": { "type": "string", "template": "{{{rank}}}" }
+      }
+    }
+  }
+}
